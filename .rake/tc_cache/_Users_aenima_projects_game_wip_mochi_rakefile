@@ -1,0 +1,17 @@
+rake build                           # Build gem
+rake check_dependencies              # Check that runtime and development dependencies are installed
+rake check_dependencies:development  # Check that development dependencies are installed
+rake check_dependencies:runtime      # Check that runtime dependencies are installed
+rake gemspec                         # Generate and validates gemspec
+rake gemspec:debug                   # Display the gemspec for debugging purposes
+rake gemspec:generate                # Generates the gemspec, using version from VERSION
+rake gemspec:validate                # Validates the gemspec
+rake git:release                     # Tag a release in Git
+rake github:release                  # Release Gem to GitHub
+rake install                         # Install gem using sudo
+rake release                         # Release gem
+rake version                         # Displays the current version
+rake version:bump:major              # Bump the gemspec by a major version.
+rake version:bump:minor              # Bump the gemspec by a minor version.
+rake version:bump:patch              # Bump the gemspec by a patch version.
+rake version:write                   # Writes out an explicit version.

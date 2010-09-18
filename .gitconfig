@@ -1,0 +1,21 @@
+[user]
+	name = Damian Nurzynski
+	email = dnurzynski@gmail.com
+[color]
+	ui = true
+[core]
+  editor = -w mate
+[alias]
+  co = checkout
+  ci = commit
+  cm = commit -m
+  cma = commit --amend
+  cma = commit -m
+  st = status
+  di = diff
+  dic = diff --cached
+  wc = whatchanged
+  pl = pull
+  plre = pull --rebase
+  ps = push
+  out = log origin..HEAD
